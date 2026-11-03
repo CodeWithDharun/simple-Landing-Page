@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.multicont {
+    padding-top: clamp(20px, 4.5vw, 70px);
+}
+
+.sub-multi {
+    display: flex;
+    gap: 30px;
+}
+
+.sub-multi-img {
+    height: clamp(100px, 13.9vw, 170px);
+
+}
+
+.multi-h1 {
+    color: hsl(35, 77%, 62%);
+    font-weight: 600;
+    font-size: clamp(20px, 5vw, 30px);
+    margin-bottom: clamp(12px, 2.1vw, 25px);
+}
+
+.multi-h5 {
+    font-weight: 600;
+    font-size: clamp(10px, 5vw, 20px);
+}
+
+.multi-p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}

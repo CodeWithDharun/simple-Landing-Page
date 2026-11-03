@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.contentMainimg {
+    height: 350px;
+    width: 100%;
+}
+
+.subc1 {
+    display: flex;
+    padding-top: clamp(16px, 2.8vw, 40px);
+    gap: clamp(10px, 3.5vw, 50px);
+
+}
+
+.subc1h2 {
+    font-size: clamp(25px, 5vw, 55px);
+    font-weight: 700;
+}
+
+.subc1h {
+    width: 100%;
+
+}
+
+.subc1p {
+    width: 100%;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.subc1but {
+    border: none;
+    padding: 15px 30px;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.subc1but:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: hsl(35, 77%, 62%);
+
+}
+
+.subc1buth6 {
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.sub2h2 {
+    color: hsl(35, 77%, 62%);
+    margin-top: clamp(12px, 2.1vw, 30px);
+    font-weight: 600;
+    font-size: clamp(20px, 5vw, 40px);
+
+}
+
+.sub2h5 {
+    color: white;
+    margin-top: clamp(12px, 2.1vw, 30px);
+    font-size: 500;
+}
+
+.sub2p {
+    color: hsl(233, 8%, 79%);
+    font: 10px;
+    font-weight: 400;
+    padding-top: clamp(6px, 0.7vw, 10px);
+    padding-bottom: 30px;
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.sub2pp {
+    color: hsl(233, 8%, 79%);
+    font: 9px;
+    font-weight: 400;
+    padding-top: clamp(6px, 0.7vw, 10px);
+}

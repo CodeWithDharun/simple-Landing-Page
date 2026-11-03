@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: clamp(70px, 7.3vw, 130px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
+.collapse {
+    background-color: white;
+}
+
+@media (max-width:425px) {
+    .collapse {
+        background-color: white;
+    }
+}
+
+.nav-Logo {
+    height: 40px;
+    width: 75px;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent;
+}
+
+.sub2 {
+    background-color: hsl(240, 100%, 5%);
+}
